@@ -14,6 +14,7 @@
 		8B4D35DD2998D3AD00059381 /* SwiftUIPractiveTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B4D35DC2998D3AD00059381 /* SwiftUIPractiveTests.swift */; };
 		8B4D35E72998D3AD00059381 /* SwiftUIPractiveUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B4D35E62998D3AD00059381 /* SwiftUIPractiveUITests.swift */; };
 		8B4D35E92998D3AD00059381 /* SwiftUIPractiveUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B4D35E82998D3AD00059381 /* SwiftUIPractiveUITestsLaunchTests.swift */; };
+		8B4D35FD299BCD5F00059381 /* GridPracticeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B4D35FC299BCD5F00059381 /* GridPracticeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		8B4D35E22998D3AD00059381 /* SwiftUIPracticeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftUIPracticeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8B4D35E62998D3AD00059381 /* SwiftUIPractiveUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIPractiveUITests.swift; sourceTree = "<group>"; };
 		8B4D35E82998D3AD00059381 /* SwiftUIPractiveUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIPractiveUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		8B4D35FC299BCD5F00059381 /* GridPracticeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridPracticeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +96,7 @@
 		8B4D35CA2998D3AC00059381 /* SwiftUIPractice */ = {
 			isa = PBXGroup;
 			children = (
+				8B4D35FB299BCD3900059381 /* GridPractice */,
 				8B4D35CB2998D3AC00059381 /* SwiftUIPracticeApp.swift */,
 				8B4D35CD2998D3AC00059381 /* ContentView.swift */,
 				8B4D35CF2998D3AD00059381 /* Assets.xcassets */,
@@ -125,6 +128,14 @@
 				8B4D35E82998D3AD00059381 /* SwiftUIPractiveUITestsLaunchTests.swift */,
 			);
 			path = SwiftUIPracticeUITests;
+			sourceTree = "<group>";
+		};
+		8B4D35FB299BCD3900059381 /* GridPractice */ = {
+			isa = PBXGroup;
+			children = (
+				8B4D35FC299BCD5F00059381 /* GridPracticeView.swift */,
+			);
+			path = GridPractice;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,6 +268,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8B4D35FD299BCD5F00059381 /* GridPracticeView.swift in Sources */,
 				8B4D35CE2998D3AC00059381 /* ContentView.swift in Sources */,
 				8B4D35CC2998D3AC00059381 /* SwiftUIPracticeApp.swift in Sources */,
 			);
