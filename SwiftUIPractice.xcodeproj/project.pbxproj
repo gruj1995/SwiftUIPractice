@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		8B4D35CC2998D3AC00059381 /* SwiftUIPractiveApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B4D35CB2998D3AC00059381 /* SwiftUIPractiveApp.swift */; };
+		8B4D35CC2998D3AC00059381 /* SwiftUIPracticeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B4D35CB2998D3AC00059381 /* SwiftUIPracticeApp.swift */; };
 		8B4D35CE2998D3AC00059381 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B4D35CD2998D3AC00059381 /* ContentView.swift */; };
 		8B4D35D02998D3AD00059381 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B4D35CF2998D3AD00059381 /* Assets.xcassets */; };
 		8B4D35D32998D3AD00059381 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B4D35D22998D3AD00059381 /* Preview Assets.xcassets */; };
@@ -34,14 +34,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		8B4D35C82998D3AC00059381 /* SwiftUIPractive.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIPractive.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		8B4D35CB2998D3AC00059381 /* SwiftUIPractiveApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIPractiveApp.swift; sourceTree = "<group>"; };
+		8B4D35C82998D3AC00059381 /* SwiftUIPractice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIPractice.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B4D35CB2998D3AC00059381 /* SwiftUIPracticeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIPracticeApp.swift; sourceTree = "<group>"; };
 		8B4D35CD2998D3AC00059381 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		8B4D35CF2998D3AD00059381 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8B4D35D22998D3AD00059381 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		8B4D35D82998D3AD00059381 /* SwiftUIPractiveTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftUIPractiveTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B4D35D82998D3AD00059381 /* SwiftUIPracticeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftUIPracticeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8B4D35DC2998D3AD00059381 /* SwiftUIPractiveTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIPractiveTests.swift; sourceTree = "<group>"; };
-		8B4D35E22998D3AD00059381 /* SwiftUIPractiveUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftUIPractiveUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B4D35E22998D3AD00059381 /* SwiftUIPracticeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftUIPracticeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8B4D35E62998D3AD00059381 /* SwiftUIPractiveUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIPractiveUITests.swift; sourceTree = "<group>"; };
 		8B4D35E82998D3AD00059381 /* SwiftUIPractiveUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIPractiveUITestsLaunchTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -74,9 +74,9 @@
 		8B4D35BF2998D3AC00059381 = {
 			isa = PBXGroup;
 			children = (
-				8B4D35CA2998D3AC00059381 /* SwiftUIPractive */,
-				8B4D35DB2998D3AD00059381 /* SwiftUIPractiveTests */,
-				8B4D35E52998D3AD00059381 /* SwiftUIPractiveUITests */,
+				8B4D35CA2998D3AC00059381 /* SwiftUIPractice */,
+				8B4D35DB2998D3AD00059381 /* SwiftUIPracticeTests */,
+				8B4D35E52998D3AD00059381 /* SwiftUIPracticeUITests */,
 				8B4D35C92998D3AC00059381 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -84,22 +84,22 @@
 		8B4D35C92998D3AC00059381 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				8B4D35C82998D3AC00059381 /* SwiftUIPractive.app */,
-				8B4D35D82998D3AD00059381 /* SwiftUIPractiveTests.xctest */,
-				8B4D35E22998D3AD00059381 /* SwiftUIPractiveUITests.xctest */,
+				8B4D35C82998D3AC00059381 /* SwiftUIPractice.app */,
+				8B4D35D82998D3AD00059381 /* SwiftUIPracticeTests.xctest */,
+				8B4D35E22998D3AD00059381 /* SwiftUIPracticeUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		8B4D35CA2998D3AC00059381 /* SwiftUIPractive */ = {
+		8B4D35CA2998D3AC00059381 /* SwiftUIPractice */ = {
 			isa = PBXGroup;
 			children = (
-				8B4D35CB2998D3AC00059381 /* SwiftUIPractiveApp.swift */,
+				8B4D35CB2998D3AC00059381 /* SwiftUIPracticeApp.swift */,
 				8B4D35CD2998D3AC00059381 /* ContentView.swift */,
 				8B4D35CF2998D3AD00059381 /* Assets.xcassets */,
 				8B4D35D12998D3AD00059381 /* Preview Content */,
 			);
-			path = SwiftUIPractive;
+			path = SwiftUIPractice;
 			sourceTree = "<group>";
 		};
 		8B4D35D12998D3AD00059381 /* Preview Content */ = {
@@ -110,29 +110,29 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		8B4D35DB2998D3AD00059381 /* SwiftUIPractiveTests */ = {
+		8B4D35DB2998D3AD00059381 /* SwiftUIPracticeTests */ = {
 			isa = PBXGroup;
 			children = (
 				8B4D35DC2998D3AD00059381 /* SwiftUIPractiveTests.swift */,
 			);
-			path = SwiftUIPractiveTests;
+			path = SwiftUIPracticeTests;
 			sourceTree = "<group>";
 		};
-		8B4D35E52998D3AD00059381 /* SwiftUIPractiveUITests */ = {
+		8B4D35E52998D3AD00059381 /* SwiftUIPracticeUITests */ = {
 			isa = PBXGroup;
 			children = (
 				8B4D35E62998D3AD00059381 /* SwiftUIPractiveUITests.swift */,
 				8B4D35E82998D3AD00059381 /* SwiftUIPractiveUITestsLaunchTests.swift */,
 			);
-			path = SwiftUIPractiveUITests;
+			path = SwiftUIPracticeUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		8B4D35C72998D3AC00059381 /* SwiftUIPractive */ = {
+		8B4D35C72998D3AC00059381 /* SwiftUIPractice */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8B4D35EC2998D3AD00059381 /* Build configuration list for PBXNativeTarget "SwiftUIPractive" */;
+			buildConfigurationList = 8B4D35EC2998D3AD00059381 /* Build configuration list for PBXNativeTarget "SwiftUIPractice" */;
 			buildPhases = (
 				8B4D35C42998D3AC00059381 /* Sources */,
 				8B4D35C52998D3AC00059381 /* Frameworks */,
@@ -142,14 +142,14 @@
 			);
 			dependencies = (
 			);
-			name = SwiftUIPractive;
+			name = SwiftUIPractice;
 			productName = SwiftUIPractive;
-			productReference = 8B4D35C82998D3AC00059381 /* SwiftUIPractive.app */;
+			productReference = 8B4D35C82998D3AC00059381 /* SwiftUIPractice.app */;
 			productType = "com.apple.product-type.application";
 		};
-		8B4D35D72998D3AD00059381 /* SwiftUIPractiveTests */ = {
+		8B4D35D72998D3AD00059381 /* SwiftUIPracticeTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8B4D35EF2998D3AD00059381 /* Build configuration list for PBXNativeTarget "SwiftUIPractiveTests" */;
+			buildConfigurationList = 8B4D35EF2998D3AD00059381 /* Build configuration list for PBXNativeTarget "SwiftUIPracticeTests" */;
 			buildPhases = (
 				8B4D35D42998D3AD00059381 /* Sources */,
 				8B4D35D52998D3AD00059381 /* Frameworks */,
@@ -160,14 +160,14 @@
 			dependencies = (
 				8B4D35DA2998D3AD00059381 /* PBXTargetDependency */,
 			);
-			name = SwiftUIPractiveTests;
+			name = SwiftUIPracticeTests;
 			productName = SwiftUIPractiveTests;
-			productReference = 8B4D35D82998D3AD00059381 /* SwiftUIPractiveTests.xctest */;
+			productReference = 8B4D35D82998D3AD00059381 /* SwiftUIPracticeTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		8B4D35E12998D3AD00059381 /* SwiftUIPractiveUITests */ = {
+		8B4D35E12998D3AD00059381 /* SwiftUIPracticeUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8B4D35F22998D3AD00059381 /* Build configuration list for PBXNativeTarget "SwiftUIPractiveUITests" */;
+			buildConfigurationList = 8B4D35F22998D3AD00059381 /* Build configuration list for PBXNativeTarget "SwiftUIPracticeUITests" */;
 			buildPhases = (
 				8B4D35DE2998D3AD00059381 /* Sources */,
 				8B4D35DF2998D3AD00059381 /* Frameworks */,
@@ -178,9 +178,9 @@
 			dependencies = (
 				8B4D35E42998D3AD00059381 /* PBXTargetDependency */,
 			);
-			name = SwiftUIPractiveUITests;
+			name = SwiftUIPracticeUITests;
 			productName = SwiftUIPractiveUITests;
-			productReference = 8B4D35E22998D3AD00059381 /* SwiftUIPractiveUITests.xctest */;
+			productReference = 8B4D35E22998D3AD00059381 /* SwiftUIPracticeUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -206,7 +206,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 8B4D35C32998D3AC00059381 /* Build configuration list for PBXProject "SwiftUIPractive" */;
+			buildConfigurationList = 8B4D35C32998D3AC00059381 /* Build configuration list for PBXProject "SwiftUIPractice" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -219,9 +219,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				8B4D35C72998D3AC00059381 /* SwiftUIPractive */,
-				8B4D35D72998D3AD00059381 /* SwiftUIPractiveTests */,
-				8B4D35E12998D3AD00059381 /* SwiftUIPractiveUITests */,
+				8B4D35C72998D3AC00059381 /* SwiftUIPractice */,
+				8B4D35D72998D3AD00059381 /* SwiftUIPracticeTests */,
+				8B4D35E12998D3AD00059381 /* SwiftUIPracticeUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -258,7 +258,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8B4D35CE2998D3AC00059381 /* ContentView.swift in Sources */,
-				8B4D35CC2998D3AC00059381 /* SwiftUIPractiveApp.swift in Sources */,
+				8B4D35CC2998D3AC00059381 /* SwiftUIPracticeApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,12 +284,12 @@
 /* Begin PBXTargetDependency section */
 		8B4D35DA2998D3AD00059381 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 8B4D35C72998D3AC00059381 /* SwiftUIPractive */;
+			target = 8B4D35C72998D3AC00059381 /* SwiftUIPractice */;
 			targetProxy = 8B4D35D92998D3AD00059381 /* PBXContainerItemProxy */;
 		};
 		8B4D35E42998D3AD00059381 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 8B4D35C72998D3AC00059381 /* SwiftUIPractive */;
+			target = 8B4D35C72998D3AC00059381 /* SwiftUIPractice */;
 			targetProxy = 8B4D35E32998D3AD00059381 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -483,7 +483,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftUIPractive.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SwiftUIPractive";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftUIPractice.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SwiftUIPractice";
 			};
 			name = Debug;
 		};
@@ -503,7 +503,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftUIPractive.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SwiftUIPractive";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftUIPractice.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SwiftUIPractice";
 			};
 			name = Release;
 		};
@@ -546,7 +546,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		8B4D35C32998D3AC00059381 /* Build configuration list for PBXProject "SwiftUIPractive" */ = {
+		8B4D35C32998D3AC00059381 /* Build configuration list for PBXProject "SwiftUIPractice" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				8B4D35EA2998D3AD00059381 /* Debug */,
@@ -555,7 +555,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8B4D35EC2998D3AD00059381 /* Build configuration list for PBXNativeTarget "SwiftUIPractive" */ = {
+		8B4D35EC2998D3AD00059381 /* Build configuration list for PBXNativeTarget "SwiftUIPractice" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				8B4D35ED2998D3AD00059381 /* Debug */,
@@ -564,7 +564,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8B4D35EF2998D3AD00059381 /* Build configuration list for PBXNativeTarget "SwiftUIPractiveTests" */ = {
+		8B4D35EF2998D3AD00059381 /* Build configuration list for PBXNativeTarget "SwiftUIPracticeTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				8B4D35F02998D3AD00059381 /* Debug */,
@@ -573,7 +573,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8B4D35F22998D3AD00059381 /* Build configuration list for PBXNativeTarget "SwiftUIPractiveUITests" */ = {
+		8B4D35F22998D3AD00059381 /* Build configuration list for PBXNativeTarget "SwiftUIPracticeUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				8B4D35F32998D3AD00059381 /* Debug */,
